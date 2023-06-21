@@ -33,6 +33,9 @@ export const User =
             address: {
                 type: DataTypes.STRING
             },
+            cellphone:{
+                type: DataTypes.INTEGER,
+            },
             city: {
                 type: DataTypes.STRING,
             },
